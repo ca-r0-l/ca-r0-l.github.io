@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Thasadith');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+
+* {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+}
+
+.header,
+.about,
+.skills {
+   height: 101vh;
+}
+
+.header {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   background-color: #fff;
+   padding-left: 20px;
+}
+
+.about {
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   padding: 5px 23px 0 23px;
+}
+
+.about p {
+   font-family: 'Playfair Display', serif;
+   line-height: 20px;
+   padding: 5px 0 5px 0;
+   font-size: 13px;
+}
+
+.topics {
+   padding: 25px 0 20px 0;
+   font-size: 22px;
+   color: #222;
+   text-transform: uppercase;
+   font-family: 'Fjalla One', sans-serif;
+}
+
+.skills {
+   background-color: brown;
+}
+
+.apresentation {
+   text-align: center;
+}
+
+.title {
+   font-size: 48px;
+   font-family: 'Playfair Display', serif;
+   color: #222;
+}
+
+.subtitle {
+   font-size: 20px;
+   margin-top: 5px;
+   text-align: left;
+   font-family: 'Fjalla One', sans-serif;
+   color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-main {
+   width: 122px;
+   padding: 10px;
+   background: transparent;
+   border: 2px solid #333;
+   border-radius: 2px;
+   font-size: 9px;
+   text-transform: uppercase;
+   letter-spacing: 0.9px;
+}
+
+#about-me {
+   margin-top: 35px;
+}
+
+.divider,
+.divider-topics {
+   width: 157px;
+   height: 5px;
+   border: 1px solid rgba(0, 0, 0, 0.6);
+   border-left: none;
+   border-right: none;
+   margin-top: 10px;
+
+}
+
+.divider-topics {
+   width: 45%;
+}
