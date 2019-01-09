@@ -74,7 +74,7 @@ a:hover {
 }
 
 .title {
-   font-size: 45px;
+   font-size: 42px;
    font-family: 'Playfair Display', serif;
    color: #222;
 }
@@ -98,9 +98,7 @@ a:hover {
    letter-spacing: 1px;
 }
 
-#about-me-btn {
-   margin-top: 35px;
-}
+
 
 .divider,
 .divider-topics {
@@ -198,6 +196,77 @@ a:hover {
 
 .contact a {
    border-bottom: 0.7px dotted #222;
+}
+
+.wrapper {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+
+}
+
+.main {
+   width: 100%;
+   height: 100%;
+   position: relative;
+   transform: translateX(0);
+   transform: translate3d(0, 0, 0);
+   transition: 300ms ease all;
+   backface-visibility: hidden;
+}
+
+.show-nav .main {
+   transform: translateX(300px);
+   transform: translate3d(300px, 0, 0);
+}
+
+.nav {
+   width: 300px;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: -300px;
+   padding: 25px;
+   color: #fff;
+   background: #333
+}
+
+.btn-close {
+   font-size: 25px;
+   border: 2px solid #fff;
+   padding: 1px 11px 4px 10px;
+   width: 38px;
+   margin-bottom: 20px;
+   display: block;
+   border-radius: 50px;
+   text-decoration: none;
+}
+
+.nav a {
+   color: #fff;
+}
+
+.btn-nav img {
+   width: 30px;
+   border: 3px solid #222;
+   border-radius: 5px;
+   padding: 2px;
+   margin: 15px 0 0 15px;
+}
+
+#about-me-btn {
+   margin: 10px;
+   color: #fff;
+   display: block;
+   text-transform: uppercase;
+   font-size: 20px;
+   width: 100%;
+   margin-top: 25px;
+}
+
+#about-me-btn:nth-child(1) {
+   margin-top: 35px;
+
 }
 
 @media(min-width: 660px) and (max-width: 889px) {

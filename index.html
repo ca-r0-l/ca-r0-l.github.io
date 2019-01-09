@@ -5,296 +5,340 @@
    <meta charset="UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
    <link rel="stylesheet" href="css/style.css" />
    <title>Caroline Andrade</title>
 </head>
 
 <body>
    <div class="container">
+      <div class="wrapper">
 
-      <div class="header">
-         <div class="apresentation">
-            <h1 class="title">Hi, I'm Caroline</h1>
-            <h4 class="subtitle">
-               full-stack developer
-            </h4>
+         <div class="main">
+
+            <nav class="nav">
+               <a href="#" class="toggle-nav btn-close">x</a>
+               <a href="#about-me" class="btn-main" id="about-me-btn">About me</a>
+               <a href="#skills" class="btn-main" id="about-me-btn">Skills</a>
+               <a href="#contacts" class="btn-main" id="about-me-btn">Contact</a>
+            </nav>
+
+            <a href="#" class="toggle-nav btn-nav"><img src="img/iconfinder_menu-alt_134216.png" alt="menu"></a>
+            <div class="header">
+               <div class="apresentation">
+                  <h1 class="title">Hi, I'm Caroline</h1>
+                  <h4 class="subtitle">
+                     full-stack developer
+                  </h4>
+               </div>
+               <span class="divider"></span>
+
+            </div>
+
+            <div class="about" id="about-me">
+               <span class="divider-topics"></span>
+               <h2 class="topics">About me</h2>
+
+               <p>Olá de novo, meu nome é Caroline, sou de São Paulo. Apaixonada por computação desde os 8
+                  anos, quando
+                  ganhei meu primeiro computador e tive a certeza de que era o que eu queria fazer pelo resto da vida.</p>
+               <p>Comecei a estudar de forma autodidata. Descobri a programação e a paixão apenas aumentou. Iniciei um
+                  curso
+                  técnico em informática. Aprendi muito sobre HTML, CSS, JS, PHP, MySQL e outras diversas tecnologias.
+                  Foram
+                  quase 2 anos de muito aprendizado.</p>
+               <p>Após concluir o ensino médio e também o curso técnico, foquei meus esforços em entrar para o curso
+                  que eu
+                  desejava. Entrei no curso de Engenharia de Computação, mudei para São Bernardo do Campo, comecei a
+                  trabalhar com desenvolvimento e descobri o amor por front-end.</p>
+               <p>Hoje em dia, trabalho com desenvolvimento em uma grande empresa onde atuo com diversas tecnologias,
+                  que
+                  envolvem front-end e back-end.
+                  Como no início, não paro de aprender, todos os dias estou em busca de novidades, de melhores formas
+                  de
+                  desenvolver e cursos para aperfeiçoamento.</p>
+            </div>
+
+            <div class="skills" id="skills">
+               <span class="divider-topics"></span>
+               <h2 class="topics">Skills</h2>
+
+               <div class="wrapper-skill">
+
+                  <div class="container-skill">
+                     <div class="img">
+                        <img src="img/html5-logo.png" alt="Logo HTML5" />
+                     </div>
+                     <div class="skill">
+                        <h6>Skill: HTML5</h6>
+                        <div class="list-knowledge">
+                           <h6>Knowledge:</h6>
+                           <ul>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="container-skill">
+                     <div class="img">
+                        <img src="img/css-3-logo-3.png" alt="Logo CSS3" />
+                     </div>
+                     <div class="skill">
+                        <h6>Skill: CSS3</h6>
+                        <div class="list-knowledge">
+                           <h6>Knowledge:</h6>
+                           <ul>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="container-skill">
+                     <div class="img">
+                        <img src="img/angular.png" alt="Logo Angular" />
+                     </div>
+                     <div class="skill">
+                        <h6>Skill: Angular 2+</h6>
+                        <div class="list-knowledge">
+                           <h6>Knowledge:</h6>
+                           <ul>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="container-skill">
+                     <div class="img">
+                        <img src="img/Badge_js-strict.svg" alt="Logo JS" />
+                     </div>
+                     <div class="skill">
+                        <h6>Skill: Javascript</h6>
+                        <div class="list-knowledge">
+                           <h6>Knowledge:</h6>
+                           <ul>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="container-skill">
+                     <div class="img">
+                        <img src="img/node.png" alt="Logo NodeJS" />
+                     </div>
+                     <div class="skill">
+                        <h6>Skill: NodeJS</h6>
+                        <div class="list-knowledge">
+                           <h6>Knowledge:</h6>
+                           <ul>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="container-skill">
+                     <div class="img">
+                        <img src="img/csharp.png" alt="Logo C#" />
+                     </div>
+                     <div class="skill">
+                        <h6>Skill: C#</h6>
+                        <div class="list-knowledge">
+                           <h6>Knowledge:</h6>
+                           <ul>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="container-skill">
+                     <div class="img">
+                        <img src="img/sql.jpeg" alt="Logo SQL Server" />
+                     </div>
+                     <div class="skill">
+                        <h6>Skill: SQL Server</h6>
+                        <div class="list-knowledge">
+                           <h6>Knowledge:</h6>
+                           <ul>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="container-skill">
+                     <div class="img">
+                        <img src="img/github-logo.png" alt="Logo Github" />
+                     </div>
+                     <div class="skill">
+                        <h6>Skill: Github</h6>
+                        <div class="list-knowledge">
+                           <h6>Knowledge:</h6>
+                           <ul>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="container-skill">
+                     <div class="img">
+                        <img src="img/mongo.png" alt="Logo MongoDB" />
+                     </div>
+                     <div class="skill">
+                        <h6>Skill: MongoDB</h6>
+                        <div class="list-knowledge">
+                           <h6>Knowledge:</h6>
+                           <ul>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="container-skill">
+                     <div class="img">
+                        <img src="img/angular.png" alt="Logo AngularJS" />
+                     </div>
+                     <div class="skill">
+                        <h6>Skill: AngularJS</h6>
+                        <div class="list-knowledge">
+                           <h6>Knowledge:</h6>
+                           <ul>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="container-skill">
+                     <div class="img">
+                        <img src="img/docker.png" alt="Logo Docker" />
+                     </div>
+                     <div class="skill">
+                        <h6>Skill: Docker</h6>
+                        <div class="list-knowledge">
+                           <h6>Knowledge:</h6>
+                           <ul>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="container-skill">
+                     <div class="img">
+                        <img src="img/ionic.jpeg" alt="Logo Ionic" />
+                     </div>
+                     <div class="skill">
+                        <h6>Skill: Ionic</h6>
+                        <div class="list-knowledge">
+                           <h6>Knowledge:</h6>
+                           <ul>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="container-skill">
+                     <div class="img">
+                        <img src="img/linux.png" alt="Logo Linux" />
+                     </div>
+                     <div class="skill">
+                        <h6>Skill: Linux</h6>
+                        <div class="list-knowledge">
+                           <h6>Knowledge:</h6>
+                           <ul>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                              <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="contacts" id="contacts">
+               <span class="divider-topics"></span>
+               <h2 class="topics">Contact</h2>
+               <h6>Hey, entre em contato, mande uma mensagem, vamos trabalhar juntos! :)</h6>
+
+               <div class="wrapper-contact">
+                  <div class="contact">
+                     <img src="img/github-logo.png" alt="Logo Github" />
+                     <span><a href="https://github.com/carola96" target="_blank">Github</a></span>
+                  </div>
+
+                  <div class="contact">
+                     <img src="img/linkedin.png" alt="Logo Linkedin" />
+                     <span><a href="https://www.linkedin.com/in/caroline-ribeiro-de-andrade-335ba7b4/" target="_blank">Linkedin</a></span>
+                  </div>
+
+                  <div class="contact">
+                     <img src="img/whatsapp.png" alt="Logo whatsapp" />
+                     <span> <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511997013152">(11) 99701-3152</a>
+                     </span>
+                  </div>
+
+                  <div class="contact">
+                     <img src="img/email.png" alt="Logo email" />
+                     <span><a href="mailto:andrade.carol@hotmail.com">andrade.carol@hotmail.com</a></span>
+                  </div>
+
+               </div>
+            </div>
          </div>
-         <span class="divider"></span>
-         <a href="#about-me" class="btn-main" id="about-me-btn">About me</a>
-      </div>
 
-      <div class="about" id="about-me">
-         <span class="divider-topics"></span>
-         <h2 class="topics">About me</h2>
-
-         <p>Olá de novo, meu nome é Caroline, sou de São Paulo. Apaixonada por computação desde os 8
-            anos, quando
-            ganhei meu primeiro computador e tive a certeza de que era o que eu queria fazer pelo resto da vida.</p>
-         <p>Comecei a estudar de forma autodidata. Descobri a programação e a paixão apenas aumentou. Iniciei um curso
-            técnico em informática. Aprendi muito sobre HTML, CSS, JS, PHP, MySQL e outras diversas tecnologias. Foram
-            quase 2 anos de muito aprendizado.</p>
-         <p>Após concluir o ensino médio e também o curso técnico, foquei meus esforços em entrar para o curso que eu
-            desejava. Entrei no curso de Engenharia de Computação, mudei para São Bernardo do Campo, comecei a
-            trabalhar com desenvolvimento e descobri o amor por front-end.</p>
-         <p>Hoje em dia, trabalho com desenvolvimento em uma grande empresa onde atuo com diversas tecnologias, que
-            envolvem front-end e back-end.
-            Como no início, não paro de aprender, todos os dias estou em busca de novidades, de melhores formas de
-            desenvolver e cursos para aperfeiçoamento.</p>
-      </div>
-
-      <div class="skills">
-         <span class="divider-topics"></span>
-         <h2 class="topics">Skills</h2>
-
-         <div class="wrapper-skill">
-
-            <div class="container-skill">
-               <div class="img">
-                  <img src="img/html5-logo.png" alt="Logo HTML5" />
-               </div>
-               <div class="skill">
-                  <h6>Skill: HTML5</h6>
-                  <div class="list-knowledge">
-                     <h6>Knowledge:</h6>
-                     <ul>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-            <div class="container-skill">
-               <div class="img">
-                  <img src="img/css-3-logo-3.png" alt="Logo CSS3" />
-               </div>
-               <div class="skill">
-                  <h6>Skill: CSS3</h6>
-                  <div class="list-knowledge">
-                     <h6>Knowledge:</h6>
-                     <ul>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-            <div class="container-skill">
-               <div class="img">
-                  <img src="img/angular.png" alt="Logo Angular" />
-               </div>
-               <div class="skill">
-                  <h6>Skill: Angular 2+</h6>
-                  <div class="list-knowledge">
-                     <h6>Knowledge:</h6>
-                     <ul>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-            <div class="container-skill">
-               <div class="img">
-                  <img src="img/Badge_js-strict.svg" alt="Logo JS" />
-               </div>
-               <div class="skill">
-                  <h6>Skill: Javascript</h6>
-                  <div class="list-knowledge">
-                     <h6>Knowledge:</h6>
-                     <ul>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-            <div class="container-skill">
-               <div class="img">
-                  <img src="img/node.png" alt="Logo NodeJS" />
-               </div>
-               <div class="skill">
-                  <h6>Skill: NodeJS</h6>
-                  <div class="list-knowledge">
-                     <h6>Knowledge:</h6>
-                     <ul>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-            <div class="container-skill">
-               <div class="img">
-                  <img src="img/csharp.png" alt="Logo C#" />
-               </div>
-               <div class="skill">
-                  <h6>Skill: C#</h6>
-                  <div class="list-knowledge">
-                     <h6>Knowledge:</h6>
-                     <ul>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-            <div class="container-skill">
-               <div class="img">
-                  <img src="img/sql.jpeg" alt="Logo SQL Server" />
-               </div>
-               <div class="skill">
-                  <h6>Skill: SQL Server</h6>
-                  <div class="list-knowledge">
-                     <h6>Knowledge:</h6>
-                     <ul>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-            <div class="container-skill">
-               <div class="img">
-                  <img src="img/github-logo.png" alt="Logo Github" />
-               </div>
-               <div class="skill">
-                  <h6>Skill: Github</h6>
-                  <div class="list-knowledge">
-                     <h6>Knowledge:</h6>
-                     <ul>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-            <div class="container-skill">
-               <div class="img">
-                  <img src="img/mongo.png" alt="Logo MongoDB" />
-               </div>
-               <div class="skill">
-                  <h6>Skill: MongoDB</h6>
-                  <div class="list-knowledge">
-                     <h6>Knowledge:</h6>
-                     <ul>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-            <div class="container-skill">
-               <div class="img">
-                  <img src="img/angular.png" alt="Logo AngularJS" />
-               </div>
-               <div class="skill">
-                  <h6>Skill: AngularJS</h6>
-                  <div class="list-knowledge">
-                     <h6>Knowledge:</h6>
-                     <ul>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-            <div class="container-skill">
-               <div class="img">
-                  <img src="img/docker.png" alt="Logo Docker" />
-               </div>
-               <div class="skill">
-                  <h6>Skill: Docker</h6>
-                  <div class="list-knowledge">
-                     <h6>Knowledge:</h6>
-                     <ul>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-            <div class="container-skill">
-               <div class="img">
-                  <img src="img/ionic.jpeg" alt="Logo Ionic" />
-               </div>
-               <div class="skill">
-                  <h6>Skill: Ionic</h6>
-                  <div class="list-knowledge">
-                     <h6>Knowledge:</h6>
-                     <ul>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-
-            <div class="container-skill">
-               <div class="img">
-                  <img src="img/linux.png" alt="Logo Linux" />
-               </div>
-               <div class="skill">
-                  <h6>Skill: Linux</h6>
-                  <div class="list-knowledge">
-                     <h6>Knowledge:</h6>
-                     <ul>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                        <li><img src="img/retro_coin.png" alt="Moedas do Mario" /></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-
-
-      </div>
-
-      <div class="contacts">
-         <span class="divider-topics"></span>
-         <h2 class="topics">Contact</h2>
-         <h6>Hey, entre em contato, mande uma mensagem, vamos trabalhar juntos! :)</h6>
-
-         <div class="wrapper-contact">
-            <div class="contact">
-               <img src="img/github-logo.png" alt="Logo Github" />
-               <span><a href="https://github.com/carola96" target="_blank">Github</a></span>
-            </div>
-
-            <div class="contact">
-               <img src="img/linkedin.png" alt="Logo Linkedin" />
-               <span><a href="https://www.linkedin.com/in/caroline-ribeiro-de-andrade-335ba7b4/" target="_blank">Linkedin</a></span>
-            </div>
-
-            <div class="contact">
-               <img src="img/whatsapp.png" alt="Logo whatsapp" />
-               <span> <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511997013152">(11) 99701-3152</a> </span>
-            </div>
-
-            <div class="contact">
-               <img src="img/email.png" alt="Logo email" />
-               <span><a href="mailto:andrade.carol@hotmail.com">andrade.carol@hotmail.com</a></span>
-            </div>
-
-         </div>
       </div>
    </div>
+
+
+
+   <script>
+      $(function () {
+         $('.toggle-nav').click(function (e) {
+            e.stopPropagation();
+            toggleNav();
+         });
+         $('.main').click(function (e) {
+            var target = $(e.target);
+            if (!target.closest('.nav').length && $('.wrapper').hasClass('show-nav')) toggleNav();
+         });
+
+         function toggleNav() {
+            if ($('.wrapper').hasClass('show-nav')) {
+               $('.wrapper').removeClass('show-nav');
+            } else {
+               $('.wrapper').addClass('show-nav');
+            }
+         }
+      });
+   </script>
 </body>
 
 </html>
