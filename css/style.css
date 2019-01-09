@@ -26,10 +26,6 @@ a:hover {
    height: 90vh;
 }
 
-.about {
-   height: 93vh;
-}
-
 .contacts {
    height: 100vh;
 }
@@ -109,7 +105,8 @@ a:hover {
    border: 1px solid rgba(0, 0, 0, 0.6);
    border-left: none;
    border-right: none;
-   margin-top: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
 
 }
 
@@ -171,7 +168,7 @@ a:hover {
 .contacts h6 {
    font-family: 'Playfair Display', serif;
    font-size: 18px;
-   padding-top: 20px;
+   padding-top: 10px;
 }
 
 .contact,
@@ -274,7 +271,8 @@ footer {
    background: #222;
    height: 100px;
    color: #fff;
-   font-size: 20px;
+   padding: 21px;
+   font-size: 15px;
    font-family: 'Fjalla One', sans-serif;
    display: flex;
    align-items: center;
@@ -350,4 +348,7 @@ footer {
       padding-top: 40px;
    }
 
+   footer {
+      font-size: 20px;
+   }
 }
