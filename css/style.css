@@ -22,16 +22,20 @@ a:hover {
    margin: 0 auto;
 }
 
-.header,
-.contacts,
-.about,
-.skills {
+.header {
+   height: 90vh;
+}
+
+.about {
+   height: 93vh;
+}
+
+.contacts {
    height: 100vh;
 }
 
 .skills {
    height: auto;
-   margin: 20px 0 20px 0;
 }
 
 .header {
@@ -51,13 +55,13 @@ a:hover {
    flex-direction: column;
    justify-content: flex-start;
    align-items: flex-start;
-   padding: 5px 23px 0 23px;
+   padding: 55px 23px 0 23px;
 }
 
 .about p {
    font-family: 'Playfair Display', serif;
    line-height: 20px;
-   padding: 5px 0 5px 0;
+   padding: 10px 0 10px 0;
    font-size: 13px;
 }
 
@@ -97,8 +101,6 @@ a:hover {
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-
-
 
 .divider,
 .divider-topics {
@@ -169,6 +171,7 @@ a:hover {
 .contacts h6 {
    font-family: 'Playfair Display', serif;
    font-size: 18px;
+   padding-top: 20px;
 }
 
 .contact,
@@ -206,8 +209,6 @@ a:hover {
 }
 
 .main {
-   width: 100%;
-   height: 100%;
    position: relative;
    transform: translateX(0);
    transform: translate3d(0, 0, 0);
@@ -269,6 +270,22 @@ a:hover {
 
 }
 
+footer {
+   background: #222;
+   height: 100px;
+   color: #fff;
+   font-size: 20px;
+   font-family: 'Fjalla One', sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.coracao {
+   color: red;
+   font-size: 30px;
+}
+
 @media(min-width: 660px) and (max-width: 889px) {
    .container {
       width: 80%;
@@ -320,4 +337,17 @@ a:hover {
    .about {
       width: 50%;
    }
+
+   .header {
+      height: 100vh;
+   }
+
+   .contacts {
+      height: 70vh;
+   }
+
+   .about p {
+      padding-top: 40px;
+   }
+
 }
