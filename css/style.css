@@ -128,30 +128,14 @@ a:hover {
 .skill {
    display: flex;
    flex-direction: column;
+   width: 50%;
 }
 
 .skill h6 {
    font-family: "Fjalla One", sans-serif;
-   font-size: 11px;
+   font-size: 13px;
    text-transform: uppercase;
-}
-
-.list-knowledge li img {
-   height: 15px;
-}
-
-.list-knowledge,
-.list-knowledge ul {
-   display: flex;
-   flex-direction: row;
-}
-
-.list-knowledge h6 {
-   padding-top: 15px;
-}
-
-.list-knowledge ul {
-   padding: 12px 0 0 20px;
+   font-weight: normal;
 }
 
 .img img {
@@ -293,6 +277,81 @@ footer {
    height: auto;
    margin-left: 10px;
    margin-top: -40px;
+}
+
+.progress-bar {
+   border-radius: 60px;
+   overflow: hidden;
+   width: 100%;
+   margin-top: 5px;
+}
+
+.progress-bar span {
+   display: block;
+}
+
+.bar {
+   background: rgba(0, 0, 0, 0.075);
+}
+
+.progress {
+   /* animation: loader 8s ease forwards; */
+   background: #75b800;
+   color: #fff;
+   padding: 5px;
+   width: 0;
+}
+
+.html {
+   width: 95%;
+}
+
+.css {
+   width: 93%;
+}
+
+.angular {
+   width: 75%;
+}
+
+.javascript {
+   width: 80%;
+}
+
+.node {
+   width: 68%;
+}
+
+.c-sharp {
+   width: 44%;
+}
+
+.sql {
+   width: 58%;
+}
+
+.git {
+   width: 65%;
+}
+
+.mongo {
+   width: 33%;
+}
+
+.angularjs {
+   width: 27%;
+}
+
+.docker {
+   width: 57%;
+}
+
+.ionic {
+   width: 26%;
+}
+
+.linux {
+   width: 88%;
 }
 
 @media (min-width: 660px) and (max-width: 889px) {
